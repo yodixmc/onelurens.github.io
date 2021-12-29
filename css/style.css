@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body{
+    background-color: rgb(245, 245, 245);
+}
+/* Лого */
+.logo-img {
+    height: 155px;
+    display: flex;
+    float: center;
+    margin: auto;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    }
+    
+.logo-img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+/* Навигация 1*/
+.main-menu {
+	list-style: none;
+	display: flex;
+	margin-top: -100px;
+	margin-left: 64px;
+}
+.main-menu li {
+	margin-left: 55px;
+	white-space: nowrap;
+}
+.main-menu a {
+	color: #313131;
+	font-size: 35px;
+	font-family: 'Caveat';
+    text-decoration: none;
+    font-weight: bold;
+}
+.main-menu a:hover {
+	color: #ffd000;
+	font-size: 35px;
+	font-family: 'Caveat';
+    text-decoration: none;
+    font-weight: bold;
+}
+.main-menu li:last-child {
+	margin-left: 30px;
+}
+
+/* Навигация 2*/
+.main-menutwo {
+	list-style: none;
+	display: flex;
+	margin-top: -61px;
+	margin-left: 884px;
+}
+.main-menutwo li {
+	margin-left: 55px;
+	white-space: nowrap;
+}
+.main-menutwo a {
+	color: #313131;
+	font-size: 35px;
+	font-family: 'Caveat';
+    font-weight: bold;
+    text-decoration: none;
+}
+.main-menutwo a:hover {
+	color: #ffd000;
+	font-size: 35px;
+	font-family: 'Caveat';
+    text-decoration: none;
+    font-weight: bold;
+}
+.main-menutwo li:last-child {
+	margin-left: 30px;
+}
+
+/* футер */
+@font-face {
+	font-family: 'Nunito';
+	src: url('/css/fonts/Nunito-SemiBold.ttf');
+	src: url('/css/fonts/Nunito-SemiBold.eot?#iefix') format('embedded-opentype'),
+	url('/css/fonts/Nunito-SemiBold.woff') format('woff'),
+	url('/css/fonts/Nunito-SemiBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+/* fake_team */
+.faketeam{
+	height: 100px;
+	width: 200px;
+	margin-top: -400px;
+}
+.phoneser{
+	background-color: #161923;
+	height: 100px;
+	width: 1400px;
+	float: right;
+}
+.phonesertext{
+	color: rgb(255, 255, 255);
+	font-family: "Caveat";
+	font-weight: bold;
+	font-size: 80px;
+	margin-top: -10px;
+}
